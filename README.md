@@ -24,7 +24,8 @@ Para: atender o site da Farmacia e demais aplicações que queiram criar pedidos
 
 ### Desenho de Arquitetura da Solução - Diagrama de Container (C2)
 
-![MS Order Arquitetura (C4Model) (2)](https://user-images.githubusercontent.com/12093535/185693192-f7cf3542-50b2-40a6-8537-518ae51b0fa9.jpg)
+![MS Order Arquitetura (C4Model) (3)](https://user-images.githubusercontent.com/12093535/185700705-748553c2-4a57-4052-abf9-7c8bbf2b1a2a.jpg)
+
 
 
 ### Detalhes técnicos *
