@@ -24,6 +24,9 @@ Para: atender o site da Farmacia e demais aplicações que queiram criar pedidos
 
 ### Desenho de Arquitetura da Solução - Diagrama de Container (C2)
 
+![MS Order Arquitetura (C4Model) (2)](https://user-images.githubusercontent.com/12093535/185693192-f7cf3542-50b2-40a6-8537-518ae51b0fa9.jpg)
+
+
 ### Detalhes técnicos *
 
 Na busca com filtros deverá ser usada ..... no exemplo abaixo:
@@ -43,11 +46,25 @@ Cenários de teste *
 * [Índice](#índice)
 
 ## :hammer: Funcionalidades do projeto
+### Micro Serviço de Pedidos
+- `Funcionalidade 1`: O novo micro serviço deve permitir a criação de novos Pedidos.
+- `Funcionalidade 2`: O microservice deve permitir recuperar pedidos através do id do pedido, Número do pedido e CPF do Cliente.
+- `Funcionalidade 3`: O Microservice deve ter um campo para armazenar o status do pedido, esse campo deve possuir apenas 3 status possíveis:
+	- Pedido Criado
+	- Pagamento Confirmado
+	- Pagamento não Autorizado
+- `Funcionalidade 3.1`:A Alteração de status do pedido só deve acontecer através de mensageria.
+- `Funcionalidade 4`: O Microservice deve notificar sempre que houver uma criação de pedido.
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
+### Micro Serviço de Pagamentos
+- `Funcionalidade 1`: O microservice não 
+- `Funcionalidade 2`: O microservice deve permitir recuperar pedidos através do id do pedido, Número do pedido e CPF do Cliente.
+- `Funcionalidade 3`: O Microservice deve ter um campo para armazenar o status do pedido, esse campo deve possuir apenas 3 status possíveis:
+	- Pedido Criado
+	- Pagamento Confirmado
+	- Pagamento não Autorizado
+- `Funcionalidade 4`: O Microservice deve notificar sempre que houver uma criação de pedido.
+
 ## 🎯 Desafio
 ## 📁 Acesso ao projeto
 ## ✔️ Técnicas e tecnologias utilizadas
