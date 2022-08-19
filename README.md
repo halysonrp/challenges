@@ -58,15 +58,21 @@ Cenários de teste *
 - `Funcionalidade 4`: O Microservice deve notificar sempre que houver uma criação de pedido.
 
 #### 💲 Micro Serviço de Pagamentos
-- `Funcionalidade 1`: O microservice não 
-- `Funcionalidade 2`: O microservice deve permitir recuperar pedidos através do id do pedido, Número do pedido e CPF do Cliente.
-- `Funcionalidade 3`: O Microservice deve ter um campo para armazenar o status do pedido, esse campo deve possuir apenas 3 status possíveis:
-	- Pedido Criado
+- `Funcionalidade 1`: O microservice deve permitir recuperar pagamentos através do id do pagamento e CPF do Cliente.
+- `Funcionalidade 2`: A criação de um pagamento deve acontecer apenas por mensageria.
+- `Funcionalidade 3`: O Microservice deve ter um campo para armazenar o status do pagamento, esse campo deve possuir apenas 2 status possíveis:
 	- Pagamento Confirmado
 	- Pagamento não Autorizado
-- `Funcionalidade 4`: O Microservice deve notificar sempre que houver uma criação de pedido.
+- `Funcionalidade 4`: O microservice deve propagar atualizações de status de pagamento através de mensageria.
+- `Funcionalidade 4`: Pagamentos com valor maior que R$1.000 não devem ser autorizados.
+- `Funcionalidade 5`: Pagamentos com valor menor que R$1.000 devem ser autorizados.
 
-## 🎯 Desafio
+## 🎯 Desafio - O que será avaliado?
+1. Espera-se que o aluno desenvolva uma breve explicação dos entregáveis através do README.md do projeto.
+2. Será avaliado como você condificou a aplicação para produzir e consumir mensagens.
+3. O contrato da sua aplicação deve ser bem documentada utilizando o framework Swagger.
+4. Também iremos considerar a abordagem utilizada para testar o fluxo da sua aplicação (testes unitários e de integração).
+
 ## 📁 Acesso ao projeto
 ## ✔️ Técnicas e tecnologias utilizadas
 ![image](https://user-images.githubusercontent.com/12093535/185676094-43ac09fb-14b4-4ca1-97fb-be5d9b315461.png)
