@@ -59,7 +59,8 @@ Na busca com filtros deverá ser usada ..... no exemplo abaixo:
 2. Será avaliado como você condificou a aplicação para produzir e consumir mensagens.
 3. O contrato da sua aplicação deve ser bem documentada utilizando o framework Swagger.
 4. Também iremos considerar a abordagem utilizada para testar o fluxo da sua aplicação (testes unitários e de integração).
-5. Como você dividiu as camadas e responsabilidades da sua aplicação. 
+5. Como você dividiu as camadas e responsabilidades da sua aplicação.
+6. No final do projeto deve ser publicado um vídeo de no maximo 5 minutos explicando as principais funcionalidades do seu projeto. 
 
 ## 📁 Acesso ao projeto
 ## ✔️ Técnicas e tecnologias utilizadas
