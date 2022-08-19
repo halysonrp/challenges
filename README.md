@@ -12,21 +12,16 @@
 
 Eu, como: PO <br />
 Quero: Construir uma API que possibilite a criação de pedidos e Pagamentos <br />
-Para: atender o site da Farmacia e demais aplicações que queiram criar pedidos e transacionar pagamentos <br />
+Para: atender o site e demais aplicações que queiram criar pedidos e transacionar pagamentos <br />
 
 ## Critérios de aceite
 [Escreva seu texto aqui]
-
-## Dependências
-- Criação de repositório no gitLab
 
 ## 🎯 Visão técnica da solução
 
 ### Desenho de Arquitetura da Solução - Diagrama de Container (C2)
 
 ![MS Order Arquitetura (C4Model) (3)](https://user-images.githubusercontent.com/12093535/185700705-748553c2-4a57-4052-abf9-7c8bbf2b1a2a.jpg)
-
-
 
 ### Detalhes técnicos *
 
@@ -37,14 +32,6 @@ Na busca com filtros deverá ser usada ..... no exemplo abaixo:
 	@SearchField
 	private Integer flagPaid;
 ```
-
-Cenários de teste *
-[Escreva seu texto aqui]
-
-
-* [Título e Imagem de capa](#Título-e-Imagem-de-capa)
-* [Badges](#badges)
-* [Índice](#índice)
 
 ## :hammer: Funcionalidades do projeto
 #### 🛒 Micro Serviço de Pedidos 
