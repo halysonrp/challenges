@@ -60,11 +60,14 @@ Na busca com filtros deverá ser usada ..... no exemplo abaixo:
 3. O contrato da sua aplicação deve ser bem documentada utilizando o framework Swagger.
 4. Também iremos considerar a abordagem utilizada para testar o fluxo da sua aplicação (testes unitários e de integração).
 5. Como você dividiu as camadas e responsabilidades da sua aplicação.
-6. No final do projeto deve ser publicado um vídeo de no maximo 5 minutos explicando as principais funcionalidades do seu projeto. 
+6. Boas praticas do HTTP status.
+7. Uso de clean code será visto como diferencial.
+8. No final do projeto deve ser publicado um vídeo de no maximo 5 minutos explicando as principais funcionalidades do seu projeto. O link deve ser disponibilizado através do readme do projeto.
 
-## 📁 Acesso ao projeto
-## ✔️ Técnicas e tecnologias utilizadas
-![image](https://user-images.githubusercontent.com/12093535/185676094-43ac09fb-14b4-4ca1-97fb-be5d9b315461.png)
+## ✔️ Observações adicionais
+1. Use a sua imaginação na escolha dos objetos e atributos para cada api.
+2. Como mensageria pode ser utilizado RabbitMQ ou Kafka.
+3. O banco de dados fica a escolha do aluno, podendo ser utilizado, MySql, Oracle, Postgress, MongoDB ou até mesmo o H2.
 
 
 **Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
