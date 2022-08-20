@@ -70,9 +70,3 @@ Na busca com filtros deverá ser usada ..... no exemplo abaixo:
 2. Como mensageria pode ser utilizado RabbitMQ ou Kafka.
 3. O banco de dados fica a escolha do aluno, podendo ser utilizado, MySql, Oracle, Postgress, MongoDB ou até mesmo o H2.
 
-
-**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
-
-## 🛠️ Abrir e rodar o projeto
-
-**Apresente as instruções necessárias para abrir e executar o projeto**
