@@ -43,6 +43,7 @@ Na busca com filtros deverá ser usada ..... no exemplo abaixo:
 	- Pagamento não Autorizado
 - `Funcionalidade 3.1`:A Alteração de status do pedido só deve acontecer através de mensageria.
 - `Funcionalidade 4`: O Microservice deve notificar sempre que houver uma criação de pedido.
+- `Funcionalidade 5`: A soma de todos os itens deve ser igual ao valor total do pedido.
 
 #### 💲 Micro Serviço de Pagamentos
 - `Funcionalidade 1`: O microservice deve permitir recuperar pagamentos através do id do pagamento e CPF do Cliente.
