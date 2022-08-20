@@ -56,7 +56,7 @@ Na busca com filtros deverá ser usada ..... no exemplo abaixo:
 - `Funcionalidade 5`: Pagamentos com valor menor que R$1.000 devem ser autorizados.
 
 ## 🎯 Desafio - O que será avaliado?
-1. Espera-se que o aluno desenvolva uma breve explicação dos entregáveis através do README.md do projeto.
+1. Espera-se que o aluno desenvolva uma breve explicação dos entregáveis e como abrir e executar o projeto através do README.md.
 2. Será avaliado como você codificou a aplicação para produzir e consumir mensagens.
 3. O contrato da sua aplicação deve ser bem documentada utilizando o framework Swagger.
 4. Também iremos considerar a abordagem utilizada para testar o fluxo da sua aplicação (testes unitários e de integração).
