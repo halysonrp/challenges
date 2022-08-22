@@ -22,16 +22,8 @@ Para: atender o site e demais aplicações que queiram criar pedidos e transacio
 ### Desenho de Arquitetura da Solução - Diagrama de Container (C2)
 
 ![MS Order Arquitetura (C4Model) (3)](https://user-images.githubusercontent.com/12093535/185700705-748553c2-4a57-4052-abf9-7c8bbf2b1a2a.jpg)
+<h6 align="center">Clique na imagem para ampliar</h6>
 
-### Detalhes técnicos 
-
-Na busca com filtros deverá ser usada ..... no exemplo abaixo:
-
-```
-	@Column(name = "FL_PAGO")
-	@SearchField
-	private Integer flagPaid;
-```
 
 ## :hammer: Funcionalidades do projeto
 #### 🛒 Micro Serviço de Pedidos 
