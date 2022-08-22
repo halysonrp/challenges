@@ -14,9 +14,6 @@ Eu, como: PO <br />
 Quero: Construir uma API que possibilite a criação de pedidos e Pagamentos <br />
 Para: atender o site e demais aplicações que queiram criar pedidos e transacionar pagamentos <br />
 
-## Critérios de aceite
-[Escreva seu texto aqui]
-
 ## 🛠️ Visão técnica da solução
 
 ### Desenho de Arquitetura da Solução - Diagrama de Container (C2)
