@@ -38,8 +38,8 @@ Para: atender o site e demais aplicações que queiram criar pedidos e transacio
 - `Funcionalidade 1`: O microservice deve permitir recuperar pagamentos através do id do pagamento e CPF do Cliente.
 - `Funcionalidade 2`: A criação de um pagamento deve acontecer apenas por mensageria.
 - `Funcionalidade 3`: O Microservice deve ter um campo para armazenar o status do pagamento, esse campo deve possuir apenas 2 status possíveis:
-	- Pagamento Confirmado
-	- Pagamento não Autorizado
+	- Pagamento Confirmado.
+	- Pagamento não Autorizado.
 - `Funcionalidade 4`: O microservice deve propagar atualizações de status de pagamento através de mensageria.
 - `Funcionalidade 4`: Pagamentos com valor maior igual que R$1.000 não devem ser autorizados.
 - `Funcionalidade 5`: Pagamentos com valor menor que R$1.000 devem ser autorizados.
