@@ -41,7 +41,7 @@ Para: atender o site e demais aplicações que queiram criar pedidos e transacio
 	- Pagamento Confirmado
 	- Pagamento não Autorizado
 - `Funcionalidade 4`: O microservice deve propagar atualizações de status de pagamento através de mensageria.
-- `Funcionalidade 4`: Pagamentos com valor maior que R$1.000 não devem ser autorizados.
+- `Funcionalidade 4`: Pagamentos com valor maior igual que R$1.000 não devem ser autorizados.
 - `Funcionalidade 5`: Pagamentos com valor menor que R$1.000 devem ser autorizados.
 
 ## 🎯 Desafio - O que será avaliado?
