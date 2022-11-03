@@ -52,7 +52,8 @@ Para: atender o site e demais aplicações que queiram criar pedidos e transacio
 5. Como você dividiu as camadas e responsabilidades da sua aplicação.
 6. Boas praticas do HTTP status.
 7. Uso de clean code será visto como diferencial.
-8. No final do projeto deve ser publicado um vídeo de no maximo 5 minutos explicando as principais funcionalidades do seu projeto. O link deve ser disponibilizado através do readme do projeto.
+8. Utilização do padrão para testes unitários na RD.
+9. No final do projeto deve ser publicado um vídeo de no maximo 5 minutos explicando as principais funcionalidades do seu projeto. O link deve ser disponibilizado através do readme do projeto.
 
 ## ✔️ Observações adicionais
 1. Use a sua imaginação na escolha dos objetos e atributos para cada api.
