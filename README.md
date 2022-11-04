@@ -25,7 +25,10 @@ Para: atender o site e demais aplicações que queiram criar pedidos e transacio
 ## :hammer: Funcionalidades do projeto
 #### 🛒 Micro Serviço de Pedidos 
 - `Funcionalidade 1`: O novo micro serviço deve permitir a criação de novos Pedidos.
-- `Funcionalidade 2`: O microservice deve permitir recuperar pedidos através do id do pedido, Número do pedido e CPF do Cliente.
+- `Funcionalidade 2`: O microservice deve possibilitar 3 tipos de consultas de pedido:
+	- Recuperar por id.
+	- Recuperar pelo número do pedido.
+	- Recuperar os pedidos através do CPF do cliente.
 - `Funcionalidade 3`: O Microservice deve ter um campo para armazenar o status do pedido, esse campo deve possuir apenas 3 status possíveis:
 	- Pedido Criado
 	- Pagamento Confirmado
@@ -35,12 +38,14 @@ Para: atender o site e demais aplicações que queiram criar pedidos e transacio
 - `Funcionalidade 5`: A soma de todos os itens deve ser igual ao valor total do pedido.
 
 #### 💲 Micro Serviço de Pagamentos
-- `Funcionalidade 1`: O microservice deve permitir recuperar pagamentos através do id do pagamento e CPF do Cliente.
+- `Funcionalidade 1`: O microservice deve possibilitar 2 tipos de consultas:
+	- Recuperar por id do pagamento.
+	- Recuperar os pagamentos através do CPF do cliente.
 - `Funcionalidade 2`: A criação de um pagamento deve acontecer apenas por mensageria.
 - `Funcionalidade 3`: O Microservice deve ter um campo para armazenar o status do pagamento, esse campo deve possuir apenas 2 status possíveis:
 	- Pagamento Confirmado.
 	- Pagamento não Autorizado.
-- `Funcionalidade 4`: O microservice deve propagar atualizações de status de pagamento através de mensageria.
+- `Funcionalidade 4`: O microservice deve propagar atualizações de status de pagamento apenas por mensageria.
 - `Funcionalidade 4`: Pagamentos com valor maior igual que R$1.000 não devem ser autorizados.
 - `Funcionalidade 5`: Pagamentos com valor menor que R$1.000 devem ser autorizados.
 
@@ -52,7 +57,7 @@ Para: atender o site e demais aplicações que queiram criar pedidos e transacio
 5. Como você dividiu as camadas e responsabilidades da sua aplicação.
 6. Boas praticas do HTTP status.
 7. Uso de clean code será visto como diferencial.
-8. Utilização do padrão para testes unitários na RD.
+8. Utilização do padrão para testes unitários na RD (https://github.com/halysonrp/training-shadow/tree/main/1.%20Testes%20Unit%C3%A1rios).
 9. No final do projeto deve ser publicado um vídeo de no maximo 5 minutos explicando as principais funcionalidades do seu projeto. O link deve ser disponibilizado através do readme do projeto.
 
 ## ✔️ Observações adicionais
