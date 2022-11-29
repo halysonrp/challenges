@@ -41,4 +41,4 @@ A avaliação será feita da seguinte forma:
 ## ✔️ Dicas
 1. Foco principal na documentação, boas praticas REST, HTTP Status, Testes Unitários e integração.
 2. O banco de dados fica a escolha do aluno, podendo ser utilizado, MySql, Oracle, Postgress, MongoDB ou até mesmo o H2.
-3. O projeto deve ser disponibilizado como privado e o acesso deve ser compartilhado com o seu avaliador/mentor.
+3.  No fim do projeto, envie um e-mail formalizando a entrega do projeto, adicionando "Avaliador/Mentor/ Studio" em cópia, lembrando que o projeto deve ser disponibilizado como privado e seu acesso deve ser compartilhado apenas com seu avaliador/mentor.
