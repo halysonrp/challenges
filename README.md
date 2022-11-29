@@ -64,5 +64,5 @@ Para: atender o site e demais aplicações que queiram criar pedidos e transacio
 1. Use a sua imaginação na escolha dos objetos e atributos para cada api.
 2. Como mensageria pode ser utilizado RabbitMQ ou Kafka.
 3. O banco de dados fica a escolha do aluno, podendo ser utilizado, MySql, Oracle, Postgress, MongoDB ou até mesmo o H2.
-4. O projeto deve ser disponibilizado como privado e o acesso deve ser compartilhado com o seu avaliador/mentor.
+4. No fim do projeto, envie um e-mail formalizando a entrega do projeto, adicionando "Avaliador/Mentor/ Studio" em cópia, lembrando que o projeto deve ser disponibilizado como privado e seu acesso deve ser compartilhado apenas com seu avaliador/mentor.
 
